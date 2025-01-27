@@ -1,3 +1,10 @@
+# _config.yml
+
+# Site settings
+title: "Sarvodaya's Homepage"
+description: "Bookmark this to keep an eye on my project updates!"
+
+# Theme settings
 theme: jekyll-theme-minimal
-title: Sarvodaya's Homepage
-description: Bookmark this to keep an eye on my project updates!
+
+# Other settings can be added below as needed
