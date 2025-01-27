@@ -3,8 +3,39 @@
 # Site settings
 title: "Sarvodaya's Homepage"
 description: "Bookmark this to keep an eye on my project updates!"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Theme settings
 theme: jekyll-theme-minimal
 
-# Other settings can be added below as needed
+# Author settings
+author:
+  name: "Sarvodaya Kumar"
+  email: "sarvodaya@example.com"
+  twitter_username: "sarvodayaK"
+  github_username: "sarvodayaKumar"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Other settings
+paginate: 5 # Number of posts per page on the blog index
+
+# Google Analytics
+google_analytics: "UA-XXXXXXXX-X"
+
+# Social links
+social_links:
+  - name: GitHub
+    url: "https://github.com/sarvodayaKumar"
+  - name: Twitter
+    url: "https://twitter.com/sarvodayaK"
+  - name: LinkedIn
+    url: "https://www.linkedin.com/in/sarvodayaKumar/"
